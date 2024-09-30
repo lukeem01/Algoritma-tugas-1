@@ -9,6 +9,6 @@ public class lukeem {
     System.err.println("Ini harga totalnya = "+Total_yang_harus_dibayar+"");
     System.err.println("Baik pak uang bapak senilai = "+Uang_yang_dibayar+"");
     System.out.println("dan ini uang kembalian "+Uang_kembalian+" nya ya pak");
-    System.err.println("Terima Kasih");
+    System.err.println("Terima Kasihhh");
     }
 }
