@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PecahanUang {
     public static void main(String[] args) throws Exception {
-         Scanner inputUang = new Scanner(System.in);
+        Scanner inputUang = new Scanner(System.in);
 
         // Meminta pengguna memasukkan jumlah uang
         System.out.print("Masukkan jumlah uang: ");
