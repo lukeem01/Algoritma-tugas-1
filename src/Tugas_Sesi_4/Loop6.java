@@ -13,7 +13,6 @@ public class Loop6 {
             } else {
                 System.out.print(d + " ");
                 d = a + b + c;
-
             }
             a = b;
             b = c;
