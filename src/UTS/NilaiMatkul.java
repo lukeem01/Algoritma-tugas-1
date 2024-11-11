@@ -1,9 +1,10 @@
-package Tugas_Sesi_7;
+package UTS;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class NilaiMahasiswa {
-static ArrayList<String> matkul = new ArrayList<>();
+public class NilaiMatkul {
+    static ArrayList<String> matkul = new ArrayList<>();
 static ArrayList<Integer> sks = new ArrayList<>();
 static ArrayList<Integer> nilai = new ArrayList<>();
 static ArrayList<String> Hmutu = new ArrayList<>();
@@ -95,3 +96,4 @@ public static void main(String[] args) {
     sc.close();
     }
 }
+

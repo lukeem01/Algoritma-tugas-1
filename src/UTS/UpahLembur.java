@@ -1,8 +1,8 @@
-package Tugas_Sesi_7;
+package UTS;
 
 import java.util.Scanner;
 
-public class Lembur {
+public class UpahLembur {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Menghitung Total Gaji");
@@ -20,5 +20,5 @@ public class Lembur {
         Double TotalGaji = Gaji + (JamLembur*UpahLembur) + (LemburLebih*1.5*UpahLembur);
         System.out.println("Total Gaji: "+TotalGaji);
         sc.close();
-    }    
+    } 
 }
