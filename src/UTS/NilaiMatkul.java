@@ -92,7 +92,6 @@ public static void main(String[] args) {
     double averIP = sumIP/jumlahSKS;
     System.out.println("Jumlah SKS: " + jumlahSKS);
     System.out.println("IP: " + averIP);
-    System.out.println("Jumlah SKS yang bisa diambil semester depan: 24");
     sc.close();
     }
 }
