@@ -5,13 +5,14 @@ public class SearchNilaiMaksimumArray {
         if (n == 0) {
             return max;
         }
-        if (array[n] > max) {
-            max = array[n];
+        if (n > 0 ) {
+            if (array[n] > max) {
+                return findMaxNilai(array, n-1, array[n]);
+            } else {
+                return findMaxNilai(array, n-1, max);
+            }
         }
-        if (n > 0) {
-            findNilaiMaks(array, n-1, max);
-        }
-        return max;
+        return 0;
     }
     public static void main(String[] args) {
         int array[] = {1, 5, 2, 7, 10, 6, 15, 12, 20, 3, 25};
