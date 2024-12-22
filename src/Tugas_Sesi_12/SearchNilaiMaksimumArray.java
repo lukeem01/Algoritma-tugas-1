@@ -7,9 +7,9 @@ public class SearchNilaiMaksimumArray {
         }
         if (n > 0 ) {
             if (array[n] > max) {
-                return findMaxNilai(array, n-1, array[n]);
+                return findNilaiMaks(array, n-1, array[n]);
             } else {
-                return findMaxNilai(array, n-1, max);
+                return findNilaiMaks(array, n-1, max);
             }
         }
         return 0;
